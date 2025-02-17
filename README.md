@@ -1,2 +1,2 @@
 # 2-DS---logica
-Ariquivo de exercicios da turma de logica do primeiro DS
+Ariquivo de exercicios da turma segundo ano front eng
