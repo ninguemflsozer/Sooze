@@ -1,0 +1,22 @@
+.cabecalho{
+    background-color: rgb(255, 255, 255);
+    width: 99%;
+    height: 14vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 240%;
+    color: rgb(0, 0, 0);
+ border-radius: 2px;
+ border: 10px solid rgb(255, 255, 255);
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ image-rendering: auto;
+}
+
+.banner {
+    width: 10%;
+    border-radius: 10px;
+    position: relative;
+    left: 850px;
+    
+}
