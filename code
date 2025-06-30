@@ -1,0 +1,16 @@
+<div class="contato">
+    <form id="contactForm">
+        <h2 class="titulo-formulario">Contate-nos</h2>
+        <input type="text" name="name" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <input type="number" name="telefone" placeholder="Opcional- Seu número de telefone" required>
+        <button type="submit">Enviar</button>
+        <div class="checkbox-container">
+            <input type="checkbox" id="dataContest" class="verifica" name="dataContest" required>
+            <label for="dataContest">
+                Eu concordo com a <a href="#" data-toggle="modal" data-target="#lgpdModal">Política de Privacidade</a>
+                e o uso dos meus dados conforme a LGPD.
+            </label>
+        </div>
+    </form>
+</div>
