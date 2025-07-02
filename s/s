@@ -1,22 +1,21 @@
-INSERT INTO Usuario VALUES (3, 'Carlos Andrade', 'carlos@email.com', 'segredo789', 'Premium');
-INSERT INTO Usuario VALUES (4, 'Ana Lima', 'ana@email.com', 'minhasenha', 'Padrão');
+INSERT INTO Usuario VALUES (5, 'Bruno Ferreira', 'bruno@email.com', 'bruno2025', 'Premium');
+INSERT INTO Usuario VALUES (6, 'Luciana Costa', 'luciana@email.com', '123luciana', 'Padrão');
 
-INSERT INTO Perfil VALUES (4, 3, 'Carlos', 'adulto');
-INSERT INTO Perfil VALUES (5, 3, 'Criança', 'infantil');
-INSERT INTO Perfil VALUES (6, 4, 'Ana', 'adulto');
+INSERT INTO Perfil VALUES (7, 5, 'Bruno', 'adulto');
+INSERT INTO Perfil VALUES (8, 5, 'Luna', 'infantil');
+INSERT INTO Perfil VALUES (9, 6, 'Luciana', 'adulto');
 
-INSERT INTO Serie VALUES (3, 'Universo Paralelo', 'Uma cientista descobre um universo espelhado', 'Ficção Científica', '14', '2024', 'Português');
-INSERT INTO Serie VALUES (4, 'Caminhos Cruzados', 'Vidas que se conectam em um cruzamento movimentado', 'Drama', '10', '2023', 'Espanhol');
+INSERT INTO Serie VALUES (5, 'Sombras do Amanhã', 'Suspense em um mundo à beira do colapso climático', 'Suspense', '16', '2025', 'Português');
+INSERT INTO Serie VALUES (6, 'Notas da Alma', 'Uma pianista redescobre sua paixão pela música', 'Drama', '12', '2023', 'Francês');
 
-INSERT INTO Temporada VALUES (4, 3, '1', '2024');
-INSERT INTO Temporada VALUES (5, 4, '1', '2023');
+INSERT INTO Temporada VALUES (6, 5, '1', '2025');
+INSERT INTO Temporada VALUES (7, 6, '1', '2023');
 
-INSERT INTO Episodio VALUES (4, 4, 'Reflexos', '1', '50 min', 'Uma versão alternativa da realidade é revelada.');
-INSERT INTO Episodio VALUES (5, 4, 'Choque de Mundos', '2', '52 min', 'As fronteiras entre os mundos começam a ruir.');
-INSERT INTO Episodio VALUES (6, 5, 'O Sinaleiro', '1', '28 min', 'Um sinaleiro testemunha momentos marcantes de desconhecidos.');
+INSERT INTO Episodio VALUES (7, 6, 'Ponto de Ebulição', '1', '40 min', 'A cidade entra em colapso devido a uma onda de calor extremo.');
+INSERT INTO Episodio VALUES (8, 7, 'Prelúdio', '1', '35 min', 'Após anos longe dos palcos, Claire retorna ao piano.');
 
-INSERT INTO Visualizacao VALUES (3, 4, 4, '2025-07-01');
-INSERT INTO Visualizacao VALUES (4, 6, 6, '2025-07-01');
+INSERT INTO Visualizacao VALUES (5, 7, 7, '2025-07-01');
+INSERT INTO Visualizacao VALUES (6, 9, 8, '2025-07-01');
 
-INSERT INTO Avaliacao VALUES (3, 4, 4, '5', 'Incrível e cheio de suspense!');
-INSERT INTO Avaliacao VALUES (4, 6, 6, '3', 'Interessante, mas um pouco lento.');
+INSERT INTO Avaliacao VALUES (5, 7, 7, '4', 'Tenso e realista!');
+INSERT INTO Avaliacao VALUES (6, 9, 8, '5', 'Emocionante e belamente filmado.');
