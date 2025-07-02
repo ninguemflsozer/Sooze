@@ -1,0 +1,21 @@
+INSERT INTO Usuario VALUES (5, 'Bruno Ferreira', 'bruno@email.com', 'bruno2025', 'Premium');
+INSERT INTO Usuario VALUES (6, 'Luciana Costa', 'luciana@email.com', '123luciana', 'Padrão');
+
+INSERT INTO Perfil VALUES (7, 5, 'Bruno', 'adulto');
+INSERT INTO Perfil VALUES (8, 5, 'Luna', 'infantil');
+INSERT INTO Perfil VALUES (9, 6, 'Luciana', 'adulto');
+
+INSERT INTO Serie VALUES (5, 'Sombras do Amanhã', 'Suspense em um mundo à beira do colapso climático', 'Suspense', '16', '2025', 'Português');
+INSERT INTO Serie VALUES (6, 'Notas da Alma', 'Uma pianista redescobre sua paixão pela música', 'Drama', '12', '2023', 'Francês');
+
+INSERT INTO Temporada VALUES (6, 5, '1', '2025');
+INSERT INTO Temporada VALUES (7, 6, '1', '2023');
+
+INSERT INTO Episodio VALUES (7, 6, 'Ponto de Ebulição', '1', '40 min', 'A cidade entra em colapso devido a uma onda de calor extremo.');
+INSERT INTO Episodio VALUES (8, 7, 'Prelúdio', '1', '35 min', 'Após anos longe dos palcos, Claire retorna ao piano.');
+
+INSERT INTO Visualizacao VALUES (5, 7, 7, '2025-07-01');
+INSERT INTO Visualizacao VALUES (6, 9, 8, '2025-07-01');
+
+INSERT INTO Avaliacao VALUES (5, 7, 7, '4', 'Tenso e realista!');
+INSERT INTO Avaliacao VALUES (6, 9, 8, '5', 'Emocionante e belamente filmado.');
