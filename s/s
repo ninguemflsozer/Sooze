@@ -1,24 +1,22 @@
-INSERT INTO Usuario VALUES (1, 'João Silva', 'joao@email.com', 'senha123', 'Premium');
-INSERT INTO Usuario VALUES (2, 'Maria Souza', 'maria@email.com', 'senha456', 'Padrão');
+INSERT INTO Usuario VALUES (3, 'Carlos Andrade', 'carlos@email.com', 'segredo789', 'Premium');
+INSERT INTO Usuario VALUES (4, 'Ana Lima', 'ana@email.com', 'minhasenha', 'Padrão');
 
-INSERT INTO Perfil VALUES (1, 1, 'João', 'adulto');
-INSERT INTO Perfil VALUES (2, 1, 'Filho', 'infantil');
-INSERT INTO Perfil VALUES (3, 2, 'Maria', 'adulto');
+INSERT INTO Perfil VALUES (4, 3, 'Carlos', 'adulto');
+INSERT INTO Perfil VALUES (5, 3, 'Criança', 'infantil');
+INSERT INTO Perfil VALUES (6, 4, 'Ana', 'adulto');
 
-INSERT INTO Serie VALUES (1, 'Stranger Dimensions', 'Viagens no tempo com pitadas de drama', 'Ficção Científica', '16', '2022', 'Inglês');
-INSERT INTO Serie VALUES (2, 'Crônicas Urbanas', 'Histórias curtas sobre a vida nas cidades', 'Drama', '12', '2021', 'Português');
+INSERT INTO Serie VALUES (3, 'Universo Paralelo', 'Uma cientista descobre um universo espelhado', 'Ficção Científica', '14', '2024', 'Português');
+INSERT INTO Serie VALUES (4, 'Caminhos Cruzados', 'Vidas que se conectam em um cruzamento movimentado', 'Drama', '10', '2023', 'Espanhol');
 
-INSERT INTO Temporada VALUES (1, 1, '1', '2022');
-INSERT INTO Temporada VALUES (2, 1, '2', '2023');
-INSERT INTO Temporada VALUES (3, 2, '1', '2021');
+INSERT INTO Temporada VALUES (4, 3, '1', '2024');
+INSERT INTO Temporada VALUES (5, 4, '1', '2023');
 
-INSERT INTO Episodio VALUES (1, 1, 'O Portal', '1', '45 min', 'Um jovem descobre uma fenda temporal.');
-INSERT INTO Episodio VALUES (2, 1, 'Ecos do Futuro', '2', '47 min', 'A linha do tempo começa a colapsar.');
-INSERT INTO Episodio VALUES (3, 3, 'Ruas de Esperança', '1', '30 min', 'A história de um músico de metrô.');
+INSERT INTO Episodio VALUES (4, 4, 'Reflexos', '1', '50 min', 'Uma versão alternativa da realidade é revelada.');
+INSERT INTO Episodio VALUES (5, 4, 'Choque de Mundos', '2', '52 min', 'As fronteiras entre os mundos começam a ruir.');
+INSERT INTO Episodio VALUES (6, 5, 'O Sinaleiro', '1', '28 min', 'Um sinaleiro testemunha momentos marcantes de desconhecidos.');
 
-INSERT INTO Visualizacao VALUES (1, 1, 1, '2025-07-01');
-INSERT INTO Visualizacao VALUES (2, 3, 3, '2025-07-01');
+INSERT INTO Visualizacao VALUES (3, 4, 4, '2025-07-01');
+INSERT INTO Visualizacao VALUES (4, 6, 6, '2025-07-01');
 
-INSERT INTO Avaliacao VALUES (1, 1, 1, '5', 'Excelente série!');
-INSERT INTO Avaliacao VALUES (2, 3, 2, '4', 'Boa, mas podia ser mais profunda.');
-
+INSERT INTO Avaliacao VALUES (3, 4, 4, '5', 'Incrível e cheio de suspense!');
+INSERT INTO Avaliacao VALUES (4, 6, 6, '3', 'Interessante, mas um pouco lento.');
