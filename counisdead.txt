@@ -117,3 +117,28 @@ UPDATE alunos SET nota = 7.0 WHERE nome = 'Carlos';
 UPDATE alunos SET turma = '3B' WHERE nome = 'Juliana';
 
 UPDATE alunos SET nota = 10.0 WHERE turma = '1A';
+
+
+terceira atvidade 
+
+CREATE SCHEMA empresa;
+
+CREATE TABLE empresa.funcionarios (
+    id INT PRIMARY KEY,
+    nome VARCHAR(100),
+    cargo VARCHAR(100),
+    salario DECIMAL(10,2)
+);
+
+CREATE TABLE empresa.departamentos (
+    id INT PRIMARY KEY,
+    nome_departamento VARCHAR(100)
+);
+
+INSERT INTO empresa.funcionarios VALUES
+(1, 'Ana Silva', 'Analista de Sistemas', 4500.00),
+(2, 'Carlos Oliveira', 'Gerente de Vendas', 7800.00);
+
+INSERT INTO empresa.departamentos VALUES
+(1, 'Tecnologia'),
+(2, 'Comercial');
