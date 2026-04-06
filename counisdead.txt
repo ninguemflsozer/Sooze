@@ -83,3 +83,37 @@ LEFT JOIN matriculas m ON c.id = m.curso_id
 LEFT JOIN alunos a ON m.aluno_id = a.id
 GROUP BY c.nome
 ORDER BY c.nome;
+
+
+segunda atvidade 
+
+CREATE TABLE alunos (
+    id INT PRIMARY KEY,
+    nome VARCHAR(100),
+    idade INT,
+    turma VARCHAR(10),
+    nota DECIMAL(4,2)
+);
+
+INSERT INTO alunos (id, nome, idade, turma, nota) VALUES
+(1, 'Ana', 15, '1A', 8.5),
+(2, 'Carlos', 16, '2B', 6.0),
+(3, 'Mariana', 15, '1A', 9.0),
+(4, 'Pedro', 17, '3C', 5.5),
+(5, 'Juliana', 16, '2B', 7.5);
+
+SELECT * FROM alunos;
+
+SELECT nome, nota FROM alunos;
+
+SELECT * FROM alunos WHERE turma = '2B';
+
+SELECT * FROM alunos WHERE nota > 7;
+
+SELECT * FROM alunos WHERE nome LIKE 'M%';
+
+UPDATE alunos SET nota = 7.0 WHERE nome = 'Carlos';
+
+UPDATE alunos SET turma = '3B' WHERE nome = 'Juliana';
+
+UPDATE alunos SET nota = 10.0 WHERE turma = '1A';
